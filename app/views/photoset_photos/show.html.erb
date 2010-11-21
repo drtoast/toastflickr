@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Photo:</b>
+  <%= @photoset_photo.photo_id %>
+</p>
+
+<p>
+  <b>Photoset:</b>
+  <%= @photoset_photo.photoset_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_photoset_photo_path(@photoset_photo) %> |
+<%= link_to 'Back', photoset_photos_path %>

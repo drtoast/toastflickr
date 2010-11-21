@@ -1,0 +1,105 @@
+<%= form_for(@photo) do |f| %>
+  <% if @photo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@photo.errors.count, "error") %> prohibited this photo from being saved:</h2>
+
+      <ul>
+      <% @photo.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :flickr_photo_id %><br />
+    <%= f.text_field :flickr_photo_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tags %><br />
+    <%= f.text_field :tags %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :taken %><br />
+    <%= f.datetime_select :taken %>
+  </div>
+  <div class="field">
+    <%= f.label :posted %><br />
+    <%= f.datetime_select :posted %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :flickr_user_id %><br />
+    <%= f.text_field :flickr_user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :created_at %><br />
+    <%= f.datetime_select :created_at %>
+  </div>
+  <div class="field">
+    <%= f.label :updated_at %><br />
+    <%= f.datetime_select :updated_at %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :secret %><br />
+    <%= f.text_field :secret %>
+  </div>
+  <div class="field">
+    <%= f.label :server %><br />
+    <%= f.text_field :server %>
+  </div>
+  <div class="field">
+    <%= f.label :originalsecret %><br />
+    <%= f.text_field :originalsecret %>
+  </div>
+  <div class="field">
+    <%= f.label :originalformat %><br />
+    <%= f.text_field :originalformat %>
+  </div>
+  <div class="field">
+    <%= f.label :farm %><br />
+    <%= f.text_field :farm %>
+  </div>
+  <div class="field">
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </div>
+  <div class="field">
+    <%= f.label :camera %><br />
+    <%= f.text_field :camera %>
+  </div>
+  <div class="field">
+    <%= f.label :exposure %><br />
+    <%= f.text_field :exposure %>
+  </div>
+  <div class="field">
+    <%= f.label :aperture %><br />
+    <%= f.text_field :aperture %>
+  </div>
+  <div class="field">
+    <%= f.label :iso %><br />
+    <%= f.text_field :iso %>
+  </div>
+  <div class="field">
+    <%= f.label :length %><br />
+    <%= f.text_field :length %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to image_tag(@photo.large, :alt => @photo.title), @photo.url %>
+
+
+<h2><%=h @photo.title %></h2>
+
+<p>
+  <b>Tags:</b> <%=h @photo.tags %>
+</p>
+
+<p>
+  <%= @photo.description %>
+</p>
+
+<p>
+ Taken <%=h @photo.taken.localtime %>, posted <%=h @photo.posted.localtime %>
+</p>
+
+<p>
+  <%=h @photo.exposure %>, <%=h @photo.aperture %> @ <%=h @photo.length %>, ISO <%=h @photo.iso %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

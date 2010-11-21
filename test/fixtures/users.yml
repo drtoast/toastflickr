@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+drtoast:
+  token: MyString
+  username: drtoast
+  realname: Jim Reynolds
+  url: http://www.flickr.com/photos/drtoast/
+  flickr_user_id: 74504321@N00
+  created_at: 2010-09-25 15:06:23
+  updated_at: 2010-09-25 15:06:23
+
+two:
+  token: MyString
+  username: MyString
+  realname: MyString
+  url: MyString
+  flickr_user_id: MyString
+  created_at: 2010-09-25 15:06:23
+  updated_at: 2010-09-25 15:06:23

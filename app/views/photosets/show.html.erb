@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @photoset.id %>
+</p>
+
+<p>
+  <b>Flickr photoset:</b>
+  <%= @photoset.flickr_photoset_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @photoset.user_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @photoset.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @photoset.description %>
+</p>
+
+<p>
+  <b>Primary:</b>
+  <%= @photoset.primary %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @photoset.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @photoset.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_photoset_path(@photoset) %> |
+<%= link_to 'Back', photosets_path %>

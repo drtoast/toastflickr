@@ -1,0 +1,49 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  flickr_photo_id: 1
+  tags: MyString
+  title: MyString
+  description: MyText
+  taken: 2010-09-25 15:09:49
+  posted: 2010-09-25 15:09:49
+  url: MyString
+  flickr_user_id: MyString
+  created_at: 2010-09-25 15:09:49
+  updated_at: 2010-09-25 15:09:49
+  user_id: 1
+  secret: MyString
+  server: MyString
+  originalsecret: MyString
+  originalformat: MyString
+  farm: MyString
+  username: MyString
+  camera: MyString
+  exposure: MyString
+  aperture: MyString
+  iso: 1
+  length: MyString
+
+two:
+  flickr_photo_id: 1
+  tags: MyString
+  title: MyString
+  description: MyText
+  taken: 2010-09-25 15:09:49
+  posted: 2010-09-25 15:09:49
+  url: MyString
+  flickr_user_id: MyString
+  created_at: 2010-09-25 15:09:49
+  updated_at: 2010-09-25 15:09:49
+  user_id: 1
+  secret: MyString
+  server: MyString
+  originalsecret: MyString
+  originalformat: MyString
+  farm: MyString
+  username: MyString
+  camera: MyString
+  exposure: MyString
+  aperture: MyString
+  iso: 1
+  length: MyString

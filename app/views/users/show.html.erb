@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @user.id %>
+</p>
+
+<p>
+  <b>Token:</b>
+  <%= @user.token %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%= @user.username %>
+</p>
+
+<p>
+  <b>Realname:</b>
+  <%= @user.realname %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @user.url %>
+</p>
+
+<p>
+  <b>Flickr user:</b>
+  <%= @user.flickr_user_id %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @user.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @user.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

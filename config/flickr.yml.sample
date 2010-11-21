@@ -1,0 +1,14 @@
+desktop_api_key:
+    'your-desktop-api-key-here'
+
+desktop_secret:
+    'your-desktop-secret-here'
+
+web_api_key:
+    'your-web-api-key-here'
+
+web_secret:
+    'your-web-secret-here'
+
+library:
+    '/path/to/your/local/image/dir'
